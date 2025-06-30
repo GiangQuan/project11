@@ -18,6 +18,10 @@ namespace UnetiExam.GUI
         {
             InitializeComponent();
         }
+        UCHome ucHome;
+        UCTestManagement ucTestManagement;
+        UCUserManagement ucUserManagement;
+        UCResult ucResult;   
 
         private void guna2HtmlLabel1_Click(object sender, EventArgs e)
         {
@@ -46,7 +50,24 @@ namespace UnetiExam.GUI
 
         private void MainForm_Load(object sender, EventArgs e)
         {
+            ucHome = new UCHome();
+            ucHome.Dock = DockStyle.Fill;
+            panelContainer.Controls.Add(ucHome);
 
+            ucTestManagement = new UCTestManagement();
+            ucTestManagement.Dock = DockStyle.Fill;
+            panelContainer.Controls.Add(ucTestManagement);
+
+            ucUserManagement = new UCUserManagement();
+            ucUserManagement.Dock = DockStyle.Fill;
+            panelContainer.Controls.Add(ucUserManagement);
+
+            ucResult = new UCResult();
+            ucResult.Dock = DockStyle.Fill;
+            panelContainer.Controls.Add(ucResult);
+
+            // Show UC home default
+            ucHome.BringToFront();
         }
 
         private void MainForm_FormClosed(object sender, FormClosedEventArgs e)
@@ -81,19 +102,19 @@ namespace UnetiExam.GUI
             // Nếu Yes ➔ form sẽ đóng bình thường
         }
 
-        private void guna2TileButton3_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void guna2TileButton1_Click(object sender, EventArgs e)
         {
+            ucHome.BringToFront();
+        }
 
+        private void guna2TileButton3_Click(object sender, EventArgs e)
+        {
+            ucTestManagement.BringToFront();
         }
 
         private void guna2TileButton4_Click(object sender, EventArgs e)
         {
-
+            ucUserManagement.BringToFront();
         }
 
         private void guna2TextBox1_TextChanged(object sender, EventArgs e)
@@ -135,6 +156,23 @@ namespace UnetiExam.GUI
         private void guna2PictureBox3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void ucTestManagement1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ucUserManagement1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void resultBtn_Click(object sender, EventArgs e)
+        {
+            
+
+            ucResult.BringToFront();
         }
     }
 }

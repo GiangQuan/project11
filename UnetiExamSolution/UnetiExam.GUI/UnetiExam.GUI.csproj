@@ -70,6 +70,30 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UCHome.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCHome.Designer.cs">
+      <DependentUpon>UCHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCResult.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCResult.Designer.cs">
+      <DependentUpon>UCResult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCTestManagement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCTestManagement.Designer.cs">
+      <DependentUpon>UCTestManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCUserManagement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCUserManagement.Designer.cs">
+      <DependentUpon>UCUserManagement.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -87,6 +111,18 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="UCHome.resx">
+      <DependentUpon>UCHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCResult.resx">
+      <DependentUpon>UCResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCTestManagement.resx">
+      <DependentUpon>UCTestManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCUserManagement.resx">
+      <DependentUpon>UCUserManagement.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
