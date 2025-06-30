@@ -60,45 +60,45 @@
       <DependentUpon>LoginForm.cs</DependentUpon>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
-    <Compile Include="MainForm.cs">
+    <Compile Include="Admin\MainForm.cs">
       <SubType>Form</SubType>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
-    <Compile Include="MainForm.Designer.cs">
+    <Compile Include="Admin\MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UCHome.cs">
+    <Compile Include="Admin\UCHome.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UCHome.Designer.cs">
+    <Compile Include="Admin\UCHome.Designer.cs">
       <DependentUpon>UCHome.cs</DependentUpon>
     </Compile>
-    <Compile Include="UCResult.cs">
+    <Compile Include="Admin\UCResult.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UCResult.Designer.cs">
+    <Compile Include="Admin\UCResult.Designer.cs">
       <DependentUpon>UCResult.cs</DependentUpon>
     </Compile>
-    <Compile Include="UCTestManagement.cs">
+    <Compile Include="Admin\UCTestManagement.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UCTestManagement.Designer.cs">
+    <Compile Include="Admin\UCTestManagement.Designer.cs">
       <DependentUpon>UCTestManagement.cs</DependentUpon>
     </Compile>
-    <Compile Include="UCUserManagement.cs">
+    <Compile Include="Admin\UCUserManagement.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UCUserManagement.Designer.cs">
+    <Compile Include="Admin\UCUserManagement.Designer.cs">
       <DependentUpon>UCUserManagement.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainForm.resx">
+    <EmbeddedResource Include="Admin\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
@@ -111,16 +111,16 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="UCHome.resx">
+    <EmbeddedResource Include="Admin\UCHome.resx">
       <DependentUpon>UCHome.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UCResult.resx">
+    <EmbeddedResource Include="Admin\UCResult.resx">
       <DependentUpon>UCResult.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UCTestManagement.resx">
+    <EmbeddedResource Include="Admin\UCTestManagement.resx">
       <DependentUpon>UCTestManagement.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UCUserManagement.resx">
+    <EmbeddedResource Include="Admin\UCUserManagement.resx">
       <DependentUpon>UCUserManagement.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />

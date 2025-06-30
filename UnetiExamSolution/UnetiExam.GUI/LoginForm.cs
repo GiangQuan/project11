@@ -91,5 +91,19 @@ namespace UnetiExam.GUI
         {
 
         }
+
+        private void txtUsername_KeyDown(object sender, KeyEventArgs e)
+        {
+           if(e.KeyCode == Keys.Tab)
+            {
+                
+                txtPassword.Focus(); // Chuyển focus đến ô mật khẩu
+            }
+        }
+
+        private void txtUsername_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            
+        }
     }
 }

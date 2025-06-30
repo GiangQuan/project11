@@ -103,7 +103,7 @@ namespace UnetiExam.GUI
             this.txtPassword.PlaceholderText = "Enter password";
             this.txtPassword.SelectedText = "";
             this.txtPassword.Size = new System.Drawing.Size(272, 36);
-            this.txtPassword.TabIndex = 6;
+            this.txtPassword.TabIndex = 1;
             this.txtPassword.TextChanged += new System.EventHandler(this.txtPassword_TextChanged);
             // 
             // guna2CustomGradientPanel1
@@ -189,11 +189,14 @@ namespace UnetiExam.GUI
             this.txtUsername.PlaceholderText = "Enter username";
             this.txtUsername.SelectedText = "";
             this.txtUsername.Size = new System.Drawing.Size(272, 36);
-            this.txtUsername.TabIndex = 5;
+            this.txtUsername.TabIndex = 0;
             this.txtUsername.TextChanged += new System.EventHandler(this.txtUsername_TextChanged);
+            this.txtUsername.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtUsername_KeyDown);
+            this.txtUsername.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtUsername_KeyPress);
             // 
             // LoginForm
             // 
+            this.AcceptButton = this.btnLogin;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
