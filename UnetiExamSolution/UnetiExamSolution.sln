@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnetiExam.DTO", "UnetiExam.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnetiExam.GUI", "UnetiExam.GUI\UnetiExam.GUI.csproj", "{367B47C5-72D7-466F-B9A0-D3FB47DA05D4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dental_sys", "..\..\..\dental-system-c-ui-design\dental_sys\dental_sys.csproj", "{29798AD8-30B0-4AE5-B5FF-9FA7FD4F7CFC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{367B47C5-72D7-466F-B9A0-D3FB47DA05D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{367B47C5-72D7-466F-B9A0-D3FB47DA05D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{367B47C5-72D7-466F-B9A0-D3FB47DA05D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29798AD8-30B0-4AE5-B5FF-9FA7FD4F7CFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29798AD8-30B0-4AE5-B5FF-9FA7FD4F7CFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29798AD8-30B0-4AE5-B5FF-9FA7FD4F7CFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29798AD8-30B0-4AE5-B5FF-9FA7FD4F7CFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
