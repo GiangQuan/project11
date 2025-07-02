@@ -61,6 +61,9 @@
   <PropertyGroup>
     <StartupObject />
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>edu.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
       <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.7\lib\net472\Guna.UI2.dll</HintPath>
@@ -187,6 +190,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Content Include="edu.ico" />
   </ItemGroup>
   <ItemGroup>
@@ -201,5 +205,11 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+=======
+    <Content Include="appicon-2.ico" />
+    <Content Include="appicon.ico" />
+    <Content Include="edu.ico" />
+  </ItemGroup>
+>>>>>>> 2765a3b2f983f643a3ca40c8f3ea868d88e1e40d
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

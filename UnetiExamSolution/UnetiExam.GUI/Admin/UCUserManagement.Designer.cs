@@ -38,7 +38,10 @@ namespace UnetiExam.GUI
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+<<<<<<< HEAD
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+=======
+>>>>>>> 2765a3b2f983f643a3ca40c8f3ea868d88e1e40d
             this.addUserBtn = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
@@ -46,6 +49,7 @@ namespace UnetiExam.GUI
             this.searchUserTextbox = new Guna.UI2.WinForms.Guna2TextBox();
             this.tabelPanel = new Guna.UI2.WinForms.Guna2Panel();
             this.userTable = new Guna.UI2.WinForms.Guna2DataGridView();
+<<<<<<< HEAD
             this.dt = new System.Data.DataTable();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel1.SuspendLayout();
@@ -66,6 +70,19 @@ namespace UnetiExam.GUI
             this.guna2HtmlLabel3.Text = "Quản lý người dùng";
             this.guna2HtmlLabel3.Click += new System.EventHandler(this.guna2HtmlLabel3_Click);
             // 
+=======
+            this.numberColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nameColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.usernameColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.roleColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.classColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.actionColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.guna2Panel1.SuspendLayout();
+            this.tabelPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.userTable)).BeginInit();
+            this.SuspendLayout();
+            // 
+>>>>>>> 2765a3b2f983f643a3ca40c8f3ea868d88e1e40d
             // addUserBtn
             // 
             this.addUserBtn.BackColor = System.Drawing.Color.Transparent;
@@ -80,9 +97,13 @@ namespace UnetiExam.GUI
             this.addUserBtn.Image = ((System.Drawing.Image)(resources.GetObject("addUserBtn.Image")));
             this.addUserBtn.Location = new System.Drawing.Point(779, 49);
             this.addUserBtn.Name = "addUserBtn";
+<<<<<<< HEAD
             this.addUserBtn.ShadowDecoration.BorderRadius = 8;
             this.addUserBtn.ShadowDecoration.Color = System.Drawing.Color.DimGray;
             this.addUserBtn.ShadowDecoration.Depth = 5;
+=======
+            this.addUserBtn.ShadowDecoration.Depth = 15;
+>>>>>>> 2765a3b2f983f643a3ca40c8f3ea868d88e1e40d
             this.addUserBtn.ShadowDecoration.Enabled = true;
             this.addUserBtn.Size = new System.Drawing.Size(117, 47);
             this.addUserBtn.TabIndex = 12;
@@ -166,13 +187,20 @@ namespace UnetiExam.GUI
             // 
             // tabelPanel
             // 
+<<<<<<< HEAD
             this.tabelPanel.BackColor = System.Drawing.Color.Transparent;
+=======
+>>>>>>> 2765a3b2f983f643a3ca40c8f3ea868d88e1e40d
             this.tabelPanel.BorderRadius = 30;
             this.tabelPanel.Controls.Add(this.userTable);
             this.tabelPanel.FillColor = System.Drawing.Color.White;
             this.tabelPanel.Location = new System.Drawing.Point(39, 233);
             this.tabelPanel.Name = "tabelPanel";
+<<<<<<< HEAD
             this.tabelPanel.Size = new System.Drawing.Size(857, 455);
+=======
+            this.tabelPanel.Size = new System.Drawing.Size(857, 231);
+>>>>>>> 2765a3b2f983f643a3ca40c8f3ea868d88e1e40d
             this.tabelPanel.TabIndex = 18;
             // 
             // userTable
@@ -180,6 +208,7 @@ namespace UnetiExam.GUI
             this.userTable.AllowUserToAddRows = false;
             this.userTable.AllowUserToDeleteRows = false;
             this.userTable.AllowUserToResizeRows = false;
+<<<<<<< HEAD
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Gray;
@@ -208,15 +237,58 @@ namespace UnetiExam.GUI
             this.userTable.DefaultCellStyle = dataGridViewCellStyle3;
             this.userTable.GridColor = System.Drawing.Color.White;
             this.userTable.Location = new System.Drawing.Point(21, 4);
+=======
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(229)))), ((int)(((byte)(251)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.userTable.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(123)))), ((int)(((byte)(251)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.userTable.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.userTable.ColumnHeadersHeight = 29;
+            this.userTable.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.userTable.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.numberColumn,
+            this.nameColumn,
+            this.usernameColumn,
+            this.roleColumn,
+            this.classColumn,
+            this.actionColumn});
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(197)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.userTable.DefaultCellStyle = dataGridViewCellStyle3;
+            this.userTable.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.userTable.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(230)))), ((int)(((byte)(251)))));
+            this.userTable.Location = new System.Drawing.Point(0, 0);
+>>>>>>> 2765a3b2f983f643a3ca40c8f3ea868d88e1e40d
             this.userTable.Name = "userTable";
             this.userTable.ReadOnly = true;
             this.userTable.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
+<<<<<<< HEAD
             dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.White;
             dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.Desktop;
+=======
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+>>>>>>> 2765a3b2f983f643a3ca40c8f3ea868d88e1e40d
             dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.userTable.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.userTable.RowHeadersVisible = false;
@@ -243,6 +315,7 @@ namespace UnetiExam.GUI
             this.userTable.ThemeStyle.ReadOnly = true;
             this.userTable.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
             this.userTable.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+<<<<<<< HEAD
             this.userTable.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
             this.userTable.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             this.userTable.ThemeStyle.RowsStyle.Height = 40;
@@ -259,35 +332,95 @@ namespace UnetiExam.GUI
             this.guna2HtmlLabel1.Size = new System.Drawing.Size(234, 22);
             this.guna2HtmlLabel1.TabIndex = 19;
             this.guna2HtmlLabel1.Text = "Quản lý người dùng và phân quyền";
+=======
+            this.userTable.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.userTable.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.Black;
+            this.userTable.ThemeStyle.RowsStyle.Height = 50;
+            this.userTable.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(197)))), ((int)(((byte)(247)))));
+            this.userTable.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
+            this.userTable.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.guna2DataGridView1_CellContentClick);
+            // 
+            // numberColumn
+            // 
+            this.numberColumn.FillWeight = 40F;
+            this.numberColumn.HeaderText = "ID";
+            this.numberColumn.Name = "numberColumn";
+            this.numberColumn.ReadOnly = true;
+            this.numberColumn.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            // 
+            // nameColumn
+            // 
+            this.nameColumn.HeaderText = "Tên người dùng";
+            this.nameColumn.Name = "nameColumn";
+            this.nameColumn.ReadOnly = true;
+            // 
+            // usernameColumn
+            // 
+            this.usernameColumn.FillWeight = 105.9644F;
+            this.usernameColumn.HeaderText = "Username";
+            this.usernameColumn.Name = "usernameColumn";
+            this.usernameColumn.ReadOnly = true;
+            // 
+            // roleColumn
+            // 
+            this.roleColumn.FillWeight = 70F;
+            this.roleColumn.HeaderText = "Vai trò";
+            this.roleColumn.Name = "roleColumn";
+            this.roleColumn.ReadOnly = true;
+            // 
+            // classColumn
+            // 
+            this.classColumn.FillWeight = 50F;
+            this.classColumn.HeaderText = "Lớp";
+            this.classColumn.Name = "classColumn";
+            this.classColumn.ReadOnly = true;
+            // 
+            // actionColumn
+            // 
+            this.actionColumn.FillWeight = 40F;
+            this.actionColumn.HeaderText = "Hành động";
+            this.actionColumn.Name = "actionColumn";
+            this.actionColumn.ReadOnly = true;
+>>>>>>> 2765a3b2f983f643a3ca40c8f3ea868d88e1e40d
             // 
             // UCUserManagement
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
             this.BackColor = System.Drawing.SystemColors.Control;
             this.Controls.Add(this.guna2HtmlLabel1);
             this.Controls.Add(this.guna2HtmlLabel3);
             this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.addUserBtn);
             this.Controls.Add(this.tabelPanel);
+=======
+            this.Controls.Add(this.tabelPanel);
+            this.Controls.Add(this.guna2Panel1);
+            this.Controls.Add(this.addUserBtn);
+>>>>>>> 2765a3b2f983f643a3ca40c8f3ea868d88e1e40d
             this.Name = "UCUserManagement";
             this.Size = new System.Drawing.Size(939, 540);
             this.guna2Panel1.ResumeLayout(false);
+<<<<<<< HEAD
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.tabelPanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.userTable)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dt)).EndInit();
+=======
+            this.tabelPanel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.userTable)).EndInit();
+>>>>>>> 2765a3b2f983f643a3ca40c8f3ea868d88e1e40d
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
         private Guna.UI2.WinForms.Guna2Button addUserBtn;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private Guna.UI2.WinForms.Guna2TextBox searchUserTextbox;
         private Guna.UI2.WinForms.Guna2Panel tabelPanel;
+<<<<<<< HEAD
         private Guna2HtmlLabel guna2HtmlLabel1;
         private Guna2DataGridView userTable;
         
@@ -301,5 +434,14 @@ namespace UnetiExam.GUI
         
         private Guna2ComboBox roleComboBox;
         private Guna2PictureBox guna2PictureBox1;
+=======
+        private Guna2DataGridView userTable;
+        private DataGridViewTextBoxColumn numberColumn;
+        private DataGridViewTextBoxColumn nameColumn;
+        private DataGridViewTextBoxColumn usernameColumn;
+        private DataGridViewTextBoxColumn roleColumn;
+        private DataGridViewTextBoxColumn classColumn;
+        private DataGridViewTextBoxColumn actionColumn;
+>>>>>>> 2765a3b2f983f643a3ca40c8f3ea868d88e1e40d
     }
 }
