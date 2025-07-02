@@ -34,24 +34,25 @@ namespace UnetiExam.GUI
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.usernameOnTitle = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.logoutBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Separator1 = new Guna.UI2.WinForms.Guna2Separator();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             this.userManageBtn = new Guna.UI2.WinForms.Guna2TileButton();
-            this.homeBtn = new Guna.UI2.WinForms.Guna2TileButton();
             this.testBtn = new Guna.UI2.WinForms.Guna2TileButton();
+            this.homeBtn = new Guna.UI2.WinForms.Guna2TileButton();
             this.resultBtn = new Guna.UI2.WinForms.Guna2TileButton();
             this.panelContainer = new Guna.UI2.WinForms.Guna2Panel();
-            this.logoutBtn = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.createExamBtn = new Guna.UI2.WinForms.Guna2TileButton();
             this.guna2Panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             this.guna2Panel3.SuspendLayout();
             this.panelContainer.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2Panel1
@@ -77,17 +78,17 @@ namespace UnetiExam.GUI
             this.guna2Panel1.Size = new System.Drawing.Size(1184, 57);
             this.guna2Panel1.TabIndex = 1;
             // 
-            // guna2PictureBox2
+            // guna2PictureBox3
             // 
-            this.guna2PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox2.Image")));
-            this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(21, 13);
-            this.guna2PictureBox2.Name = "guna2PictureBox2";
-            this.guna2PictureBox2.Size = new System.Drawing.Size(35, 35);
-            this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2PictureBox2.TabIndex = 12;
-            this.guna2PictureBox2.TabStop = false;
-            this.guna2PictureBox2.Click += new System.EventHandler(this.guna2PictureBox2_Click);
+            this.guna2PictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox3.Image")));
+            this.guna2PictureBox3.ImageRotate = 0F;
+            this.guna2PictureBox3.Location = new System.Drawing.Point(925, 20);
+            this.guna2PictureBox3.Name = "guna2PictureBox3";
+            this.guna2PictureBox3.Size = new System.Drawing.Size(17, 20);
+            this.guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox3.TabIndex = 14;
+            this.guna2PictureBox3.TabStop = false;
+            this.guna2PictureBox3.Click += new System.EventHandler(this.guna2PictureBox3_Click_1);
             // 
             // usernameOnTitle
             // 
@@ -100,6 +101,40 @@ namespace UnetiExam.GUI
             this.usernameOnTitle.TabIndex = 11;
             this.usernameOnTitle.Text = "name";
             this.usernameOnTitle.Click += new System.EventHandler(this.guna2HtmlLabel3_Click);
+            // 
+            // logoutBtn
+            // 
+            this.logoutBtn.CheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.logoutBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.logoutBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.logoutBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.logoutBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.logoutBtn.FillColor = System.Drawing.Color.Transparent;
+            this.logoutBtn.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.logoutBtn.ForeColor = System.Drawing.Color.DimGray;
+            this.logoutBtn.HoverState.FillColor = System.Drawing.Color.Transparent;
+            this.logoutBtn.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.logoutBtn.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
+            this.logoutBtn.Image = ((System.Drawing.Image)(resources.GetObject("logoutBtn.Image")));
+            this.logoutBtn.ImageOffset = new System.Drawing.Point(-1, 0);
+            this.logoutBtn.Location = new System.Drawing.Point(1080, 13);
+            this.logoutBtn.Name = "logoutBtn";
+            this.logoutBtn.Size = new System.Drawing.Size(92, 33);
+            this.logoutBtn.TabIndex = 13;
+            this.logoutBtn.Text = "Sign out";
+            this.logoutBtn.Click += new System.EventHandler(this.logoutBtn_Click);
+            // 
+            // guna2PictureBox2
+            // 
+            this.guna2PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox2.Image")));
+            this.guna2PictureBox2.ImageRotate = 0F;
+            this.guna2PictureBox2.Location = new System.Drawing.Point(21, 13);
+            this.guna2PictureBox2.Name = "guna2PictureBox2";
+            this.guna2PictureBox2.Size = new System.Drawing.Size(35, 35);
+            this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox2.TabIndex = 12;
+            this.guna2PictureBox2.TabStop = false;
+            this.guna2PictureBox2.Click += new System.EventHandler(this.guna2PictureBox2_Click);
             // 
             // guna2HtmlLabel2
             // 
@@ -137,6 +172,7 @@ namespace UnetiExam.GUI
             // 
             this.guna2Panel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2Panel3.BorderThickness = 1;
+            this.guna2Panel3.Controls.Add(this.createExamBtn);
             this.guna2Panel3.Controls.Add(this.userManageBtn);
             this.guna2Panel3.Controls.Add(this.testBtn);
             this.guna2Panel3.Controls.Add(this.homeBtn);
@@ -160,7 +196,7 @@ namespace UnetiExam.GUI
             this.userManageBtn.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(211)))), ((int)(((byte)(254)))));
             this.userManageBtn.BorderRadius = 10;
             this.userManageBtn.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(211)))), ((int)(((byte)(254)))));
-            this.userManageBtn.CustomImages.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image1")));
+            this.userManageBtn.CustomImages.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image2")));
             this.userManageBtn.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.userManageBtn.CustomImages.ImageOffset = new System.Drawing.Point(5, 0);
             this.userManageBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -173,7 +209,7 @@ namespace UnetiExam.GUI
             this.userManageBtn.HoverState.BorderColor = System.Drawing.Color.Navy;
             this.userManageBtn.HoverState.CustomBorderColor = System.Drawing.Color.Navy;
             this.userManageBtn.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
-            this.userManageBtn.Location = new System.Drawing.Point(12, 176);
+            this.userManageBtn.Location = new System.Drawing.Point(12, 230);
             this.userManageBtn.Name = "userManageBtn";
             this.userManageBtn.Size = new System.Drawing.Size(172, 48);
             this.userManageBtn.TabIndex = 8;
@@ -181,13 +217,39 @@ namespace UnetiExam.GUI
             this.userManageBtn.TextOffset = new System.Drawing.Point(5, 0);
             this.userManageBtn.Click += new System.EventHandler(this.guna2TileButton4_Click);
             // 
+            // testBtn
+            // 
+            this.testBtn.BackColor = System.Drawing.SystemColors.Window;
+            this.testBtn.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(211)))), ((int)(((byte)(254)))));
+            this.testBtn.BorderRadius = 10;
+            this.testBtn.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(211)))), ((int)(((byte)(254)))));
+            this.testBtn.CustomImages.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image3")));
+            this.testBtn.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.testBtn.CustomImages.ImageOffset = new System.Drawing.Point(6, 0);
+            this.testBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.testBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.testBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.testBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.testBtn.FillColor = System.Drawing.Color.White;
+            this.testBtn.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.testBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.testBtn.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
+            this.testBtn.ImageOffset = new System.Drawing.Point(5, 0);
+            this.testBtn.Location = new System.Drawing.Point(12, 68);
+            this.testBtn.Name = "testBtn";
+            this.testBtn.Size = new System.Drawing.Size(172, 48);
+            this.testBtn.TabIndex = 7;
+            this.testBtn.Text = "Quản lý đề thi";
+            this.testBtn.TextOffset = new System.Drawing.Point(11, 0);
+            this.testBtn.Click += new System.EventHandler(this.guna2TileButton3_Click);
+            // 
             // homeBtn
             // 
             this.homeBtn.BackColor = System.Drawing.Color.White;
             this.homeBtn.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(211)))), ((int)(((byte)(254)))));
             this.homeBtn.BorderRadius = 10;
             this.homeBtn.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(211)))), ((int)(((byte)(254)))));
-            this.homeBtn.CustomImages.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image3")));
+            this.homeBtn.CustomImages.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image4")));
             this.homeBtn.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.homeBtn.CustomImages.ImageOffset = new System.Drawing.Point(5, 0);
             this.homeBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -208,39 +270,13 @@ namespace UnetiExam.GUI
             this.homeBtn.Click += new System.EventHandler(this.guna2TileButton1_Click);
             this.homeBtn.MouseHover += new System.EventHandler(this.guna2TileButton1_MouseHover);
             // 
-            // testBtn
-            // 
-            this.testBtn.BackColor = System.Drawing.SystemColors.Window;
-            this.testBtn.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(211)))), ((int)(((byte)(254)))));
-            this.testBtn.BorderRadius = 10;
-            this.testBtn.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(211)))), ((int)(((byte)(254)))));
-            this.testBtn.CustomImages.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image2")));
-            this.testBtn.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.testBtn.CustomImages.ImageOffset = new System.Drawing.Point(6, 0);
-            this.testBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.testBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.testBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.testBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.testBtn.FillColor = System.Drawing.Color.White;
-            this.testBtn.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.testBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.testBtn.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
-            this.testBtn.ImageOffset = new System.Drawing.Point(5, 0);
-            this.testBtn.Location = new System.Drawing.Point(12, 68);
-            this.testBtn.Name = "testBtn";
-            this.testBtn.Size = new System.Drawing.Size(172, 48);
-            this.testBtn.TabIndex = 7;
-            this.testBtn.Text = "Quản lý đề thi";
-            this.testBtn.TextOffset = new System.Drawing.Point(11, 0);
-            this.testBtn.Click += new System.EventHandler(this.guna2TileButton3_Click);
-            // 
             // resultBtn
             // 
             this.resultBtn.BackColor = System.Drawing.SystemColors.Window;
             this.resultBtn.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(211)))), ((int)(((byte)(254)))));
             this.resultBtn.BorderRadius = 10;
             this.resultBtn.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(211)))), ((int)(((byte)(254)))));
-            this.resultBtn.CustomImages.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image4")));
+            this.resultBtn.CustomImages.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image5")));
             this.resultBtn.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.resultBtn.CustomImages.ImageOffset = new System.Drawing.Point(5, 0);
             this.resultBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -275,39 +311,30 @@ namespace UnetiExam.GUI
             this.panelContainer.TabIndex = 5;
             this.panelContainer.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel4_Paint);
             // 
-            // logoutBtn
+            // createExamBtn
             // 
-            this.logoutBtn.CheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.logoutBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.logoutBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.logoutBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.logoutBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.logoutBtn.FillColor = System.Drawing.Color.Transparent;
-            this.logoutBtn.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.logoutBtn.ForeColor = System.Drawing.Color.DimGray;
-            this.logoutBtn.HoverState.FillColor = System.Drawing.Color.Transparent;
-            this.logoutBtn.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.logoutBtn.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
-            this.logoutBtn.Image = ((System.Drawing.Image)(resources.GetObject("logoutBtn.Image")));
-            this.logoutBtn.ImageOffset = new System.Drawing.Point(-1, 0);
-            this.logoutBtn.Location = new System.Drawing.Point(1080, 13);
-            this.logoutBtn.Name = "logoutBtn";
-            this.logoutBtn.Size = new System.Drawing.Size(92, 33);
-            this.logoutBtn.TabIndex = 13;
-            this.logoutBtn.Text = "Sign out";
-            this.logoutBtn.Click += new System.EventHandler(this.logoutBtn_Click);
-            // 
-            // guna2PictureBox3
-            // 
-            this.guna2PictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox3.Image")));
-            this.guna2PictureBox3.ImageRotate = 0F;
-            this.guna2PictureBox3.Location = new System.Drawing.Point(925, 20);
-            this.guna2PictureBox3.Name = "guna2PictureBox3";
-            this.guna2PictureBox3.Size = new System.Drawing.Size(17, 20);
-            this.guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox3.TabIndex = 14;
-            this.guna2PictureBox3.TabStop = false;
-            this.guna2PictureBox3.Click += new System.EventHandler(this.guna2PictureBox3_Click_1);
+            this.createExamBtn.BackColor = System.Drawing.SystemColors.Window;
+            this.createExamBtn.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(211)))), ((int)(((byte)(254)))));
+            this.createExamBtn.BorderRadius = 10;
+            this.createExamBtn.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(211)))), ((int)(((byte)(254)))));
+            this.createExamBtn.CustomImages.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image1")));
+            this.createExamBtn.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.createExamBtn.CustomImages.ImageOffset = new System.Drawing.Point(5, 0);
+            this.createExamBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.createExamBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.createExamBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.createExamBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.createExamBtn.FillColor = System.Drawing.Color.White;
+            this.createExamBtn.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.createExamBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.createExamBtn.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(246)))), ((int)(((byte)(255)))));
+            this.createExamBtn.ImageOffset = new System.Drawing.Point(5, 0);
+            this.createExamBtn.Location = new System.Drawing.Point(12, 176);
+            this.createExamBtn.Name = "createExamBtn";
+            this.createExamBtn.Size = new System.Drawing.Size(172, 48);
+            this.createExamBtn.TabIndex = 9;
+            this.createExamBtn.Text = "Tạo bài thi";
+            this.createExamBtn.Click += new System.EventHandler(this.guna2TileButton1_Click_1);
             // 
             // MainForm
             // 
@@ -328,10 +355,10 @@ namespace UnetiExam.GUI
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
             this.guna2Panel3.ResumeLayout(false);
             this.panelContainer.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -351,5 +378,6 @@ namespace UnetiExam.GUI
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox2;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox3;
         private Guna.UI2.WinForms.Guna2Button logoutBtn;
+        private Guna.UI2.WinForms.Guna2TileButton createExamBtn;
     }
 }
