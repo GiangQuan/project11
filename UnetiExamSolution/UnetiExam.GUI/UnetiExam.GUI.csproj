@@ -33,11 +33,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <PropertyGroup>
     <ApplicationIcon>edu.ico</ApplicationIcon>
   </PropertyGroup>
 =======
 >>>>>>> parent of 5454f29 (update nhieu thứ)
+=======
+>>>>>>> parent of 523fd81 (123123)
   <ItemGroup>
     <Reference Include="Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
       <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.7\lib\net472\Guna.UI2.dll</HintPath>
@@ -156,7 +159,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
   <ItemGroup>
-<<<<<<< HEAD
     <Content Include="edu.ico" />
   </ItemGroup>
   <ItemGroup>
@@ -171,6 +173,7 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+<<<<<<< HEAD
 =======
     <Content Include="appicon-2.ico" />
     <Content Include="appicon.ico" />
@@ -181,5 +184,7 @@
 >>>>>>> parent of 5454f29 (update nhieu thứ)
 =======
 >>>>>>> parent of 5454f29 (update nhieu thứ)
+=======
+>>>>>>> parent of 523fd81 (123123)
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

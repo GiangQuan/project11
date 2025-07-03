@@ -40,6 +40,7 @@ namespace UnetiExam.GUI
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of 5454f29 (update nhieu thứ)
@@ -51,9 +52,9 @@ namespace UnetiExam.GUI
 >>>>>>> parent of 5454f29 (update nhieu thứ)
 =======
 >>>>>>> parent of 5454f29 (update nhieu thứ)
-            this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
 =======
->>>>>>> 2765a3b2f983f643a3ca40c8f3ea868d88e1e40d
+>>>>>>> parent of 523fd81 (123123)
+            this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.addUserBtn = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.searchUserTextbox = new Guna.UI2.WinForms.Guna2TextBox();
@@ -61,6 +62,9 @@ namespace UnetiExam.GUI
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 523fd81 (123123)
             this.dt = new System.Data.DataTable();
 =======
 =======
@@ -93,19 +97,6 @@ namespace UnetiExam.GUI
             this.guna2HtmlLabel3.Text = "Quản lý người dùng";
             this.guna2HtmlLabel3.Click += new System.EventHandler(this.guna2HtmlLabel3_Click);
             // 
-=======
-            this.numberColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nameColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.usernameColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.roleColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.classColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.actionColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.guna2Panel1.SuspendLayout();
-            this.tabelPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.userTable)).BeginInit();
-            this.SuspendLayout();
-            // 
->>>>>>> 2765a3b2f983f643a3ca40c8f3ea868d88e1e40d
             // addUserBtn
             // 
             this.addUserBtn.BorderRadius = 8;
@@ -122,12 +113,12 @@ namespace UnetiExam.GUI
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 523fd81 (123123)
             this.addUserBtn.ShadowDecoration.BorderRadius = 8;
             this.addUserBtn.ShadowDecoration.Color = System.Drawing.Color.DimGray;
             this.addUserBtn.ShadowDecoration.Depth = 5;
-=======
-            this.addUserBtn.ShadowDecoration.Depth = 15;
->>>>>>> 2765a3b2f983f643a3ca40c8f3ea868d88e1e40d
             this.addUserBtn.ShadowDecoration.Enabled = true;
 =======
 >>>>>>> parent of 5454f29 (update nhieu thứ)
@@ -179,20 +170,13 @@ namespace UnetiExam.GUI
 <<<<<<< HEAD
             // tabelPanel
             // 
-<<<<<<< HEAD
             this.tabelPanel.BackColor = System.Drawing.Color.Transparent;
-=======
->>>>>>> 2765a3b2f983f643a3ca40c8f3ea868d88e1e40d
             this.tabelPanel.BorderRadius = 30;
             this.tabelPanel.Controls.Add(this.userTable);
             this.tabelPanel.FillColor = System.Drawing.Color.White;
             this.tabelPanel.Location = new System.Drawing.Point(39, 233);
             this.tabelPanel.Name = "tabelPanel";
-<<<<<<< HEAD
             this.tabelPanel.Size = new System.Drawing.Size(857, 455);
-=======
-            this.tabelPanel.Size = new System.Drawing.Size(857, 231);
->>>>>>> 2765a3b2f983f643a3ca40c8f3ea868d88e1e40d
             this.tabelPanel.TabIndex = 18;
             // 
 =======
@@ -207,6 +191,9 @@ namespace UnetiExam.GUI
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 523fd81 (123123)
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Gray;
@@ -235,6 +222,7 @@ namespace UnetiExam.GUI
             this.userTable.DefaultCellStyle = dataGridViewCellStyle3;
             this.userTable.GridColor = System.Drawing.Color.White;
             this.userTable.Location = new System.Drawing.Point(21, 4);
+<<<<<<< HEAD
 =======
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(229)))), ((int)(((byte)(251)))));
             dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -309,22 +297,17 @@ namespace UnetiExam.GUI
             this.userTable.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(230)))), ((int)(((byte)(251)))));
             this.userTable.Location = new System.Drawing.Point(0, 0);
 >>>>>>> 2765a3b2f983f643a3ca40c8f3ea868d88e1e40d
+=======
+>>>>>>> parent of 523fd81 (123123)
             this.userTable.Name = "userTable";
             this.userTable.ReadOnly = true;
             this.userTable.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
-<<<<<<< HEAD
             dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.White;
             dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.Desktop;
-=======
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
->>>>>>> 2765a3b2f983f643a3ca40c8f3ea868d88e1e40d
             dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.userTable.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
 =======
@@ -397,6 +380,9 @@ namespace UnetiExam.GUI
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 523fd81 (123123)
             this.userTable.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
             this.userTable.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             this.userTable.ThemeStyle.RowsStyle.Height = 40;
@@ -478,56 +464,6 @@ namespace UnetiExam.GUI
             this.guna2HtmlLabel1.Size = new System.Drawing.Size(234, 22);
             this.guna2HtmlLabel1.TabIndex = 19;
             this.guna2HtmlLabel1.Text = "Quản lý người dùng và phân quyền";
-=======
-            this.userTable.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.userTable.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.Black;
-            this.userTable.ThemeStyle.RowsStyle.Height = 50;
-            this.userTable.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(197)))), ((int)(((byte)(247)))));
-            this.userTable.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
-            this.userTable.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.guna2DataGridView1_CellContentClick);
-            // 
-            // numberColumn
-            // 
-            this.numberColumn.FillWeight = 40F;
-            this.numberColumn.HeaderText = "ID";
-            this.numberColumn.Name = "numberColumn";
-            this.numberColumn.ReadOnly = true;
-            this.numberColumn.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            // 
-            // nameColumn
-            // 
-            this.nameColumn.HeaderText = "Tên người dùng";
-            this.nameColumn.Name = "nameColumn";
-            this.nameColumn.ReadOnly = true;
-            // 
-            // usernameColumn
-            // 
-            this.usernameColumn.FillWeight = 105.9644F;
-            this.usernameColumn.HeaderText = "Username";
-            this.usernameColumn.Name = "usernameColumn";
-            this.usernameColumn.ReadOnly = true;
-            // 
-            // roleColumn
-            // 
-            this.roleColumn.FillWeight = 70F;
-            this.roleColumn.HeaderText = "Vai trò";
-            this.roleColumn.Name = "roleColumn";
-            this.roleColumn.ReadOnly = true;
-            // 
-            // classColumn
-            // 
-            this.classColumn.FillWeight = 50F;
-            this.classColumn.HeaderText = "Lớp";
-            this.classColumn.Name = "classColumn";
-            this.classColumn.ReadOnly = true;
-            // 
-            // actionColumn
-            // 
-            this.actionColumn.FillWeight = 40F;
-            this.actionColumn.HeaderText = "Hành động";
-            this.actionColumn.Name = "actionColumn";
-            this.actionColumn.ReadOnly = true;
->>>>>>> 2765a3b2f983f643a3ca40c8f3ea868d88e1e40d
             // 
             // UCUserManagement
             // 
@@ -536,6 +472,9 @@ namespace UnetiExam.GUI
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 523fd81 (123123)
             this.BackColor = System.Drawing.SystemColors.Control;
 =======
 >>>>>>> parent of 5454f29 (update nhieu thứ)
@@ -548,6 +487,7 @@ namespace UnetiExam.GUI
 <<<<<<< HEAD
 <<<<<<< HEAD
             this.Controls.Add(this.tabelPanel);
+<<<<<<< HEAD
 =======
             this.Controls.Add(this.tabelPanel);
             this.Controls.Add(this.guna2Panel1);
@@ -556,15 +496,21 @@ namespace UnetiExam.GUI
 =======
             this.Controls.Add(this.guna2HtmlLabel3);
 >>>>>>> parent of 5454f29 (update nhieu thứ)
+=======
+>>>>>>> parent of 523fd81 (123123)
             this.Name = "UCUserManagement";
             this.Size = new System.Drawing.Size(972, 688);
             this.guna2Panel1.ResumeLayout(false);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 523fd81 (123123)
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.tabelPanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.userTable)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dt)).EndInit();
+<<<<<<< HEAD
 =======
             this.tabelPanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.userTable)).EndInit();
@@ -581,11 +527,15 @@ namespace UnetiExam.GUI
             ((System.ComponentModel.ISupportInitialize)(this.userTable)).EndInit();
             this.tabelPanel.ResumeLayout(false);
 >>>>>>> parent of 5454f29 (update nhieu thứ)
+=======
+>>>>>>> parent of 523fd81 (123123)
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
         private Guna.UI2.WinForms.Guna2Button addUserBtn;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private Guna.UI2.WinForms.Guna2DataGridView userTable;
@@ -597,7 +547,6 @@ namespace UnetiExam.GUI
         private System.Windows.Forms.DataGridViewTextBoxColumn actionColumn;
         private Guna.UI2.WinForms.Guna2TextBox searchUserTextbox;
         private Guna.UI2.WinForms.Guna2Panel tabelPanel;
-<<<<<<< HEAD
         private Guna2HtmlLabel guna2HtmlLabel1;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -613,6 +562,7 @@ namespace UnetiExam.GUI
         
         private Guna2ComboBox roleComboBox;
         private Guna2PictureBox guna2PictureBox1;
+<<<<<<< HEAD
 =======
         private Guna2DataGridView userTable;
         private DataGridViewTextBoxColumn numberColumn;
@@ -626,5 +576,7 @@ namespace UnetiExam.GUI
 >>>>>>> parent of 5454f29 (update nhieu thứ)
 =======
 >>>>>>> parent of 5454f29 (update nhieu thứ)
+=======
+>>>>>>> parent of 523fd81 (123123)
     }
 }
