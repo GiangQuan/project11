@@ -8,7 +8,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using UnetiExam.GUI.Admin;
 
 
 namespace UnetiExam.GUI
@@ -22,8 +21,7 @@ namespace UnetiExam.GUI
         UCHome ucHome;
         UCTestManagement ucTestManagement;
         UCUserManagement ucUserManagement;
-        UCResult ucResult;
-        UCCreateExam ucCreateExam;
+        UCResult ucResult;   
 
         private void guna2HtmlLabel1_Click(object sender, EventArgs e)
         {
@@ -67,10 +65,6 @@ namespace UnetiExam.GUI
             ucResult = new UCResult();
             ucResult.Dock = DockStyle.Fill;
             panelContainer.Controls.Add(ucResult);
-
-            ucCreateExam = new UCCreateExam();
-            ucCreateExam.Dock = DockStyle.Fill;
-            panelContainer.Controls.Add(ucCreateExam);
 
             // Show UC home default
             ucHome.BringToFront();
@@ -230,13 +224,6 @@ namespace UnetiExam.GUI
                 // Close this form when login form is closed
                 loginForm.FormClosed += (s, args) => this.Close();
             }
-        }
-
-        private void guna2TileButton1_Click_1(object sender, EventArgs e)
-        {
-            ucCreateExam.BringToFront();
-            resetColorButton();
-            createExamBtn.FillColor = Color.FromArgb(239, 246, 255);
         }
     }
 }

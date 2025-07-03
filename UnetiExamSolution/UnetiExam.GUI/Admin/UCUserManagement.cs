@@ -26,10 +26,5 @@ namespace UnetiExam.GUI
         {
 
         }
-
-        private void roleComboBox_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }
