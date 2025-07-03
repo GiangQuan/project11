@@ -34,16 +34,22 @@ namespace UnetiExam.GUI
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UCUserManagement));
 <<<<<<< HEAD
+<<<<<<< HEAD
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 5454f29 (update nhieu thứ)
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+<<<<<<< HEAD
+>>>>>>> parent of 5454f29 (update nhieu thứ)
+=======
 >>>>>>> parent of 5454f29 (update nhieu thứ)
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
 =======
@@ -54,8 +60,11 @@ namespace UnetiExam.GUI
             this.userTable = new Guna.UI2.WinForms.Guna2DataGridView();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.dt = new System.Data.DataTable();
 =======
+=======
+>>>>>>> parent of 5454f29 (update nhieu thứ)
             this.numberColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nameColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.usernameColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -63,6 +72,9 @@ namespace UnetiExam.GUI
             this.classColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.actionColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabelPanel = new Guna.UI2.WinForms.Guna2Panel();
+<<<<<<< HEAD
+>>>>>>> parent of 5454f29 (update nhieu thứ)
+=======
 >>>>>>> parent of 5454f29 (update nhieu thứ)
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel1.SuspendLayout();
@@ -109,6 +121,7 @@ namespace UnetiExam.GUI
             this.addUserBtn.Name = "addUserBtn";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.addUserBtn.ShadowDecoration.BorderRadius = 8;
             this.addUserBtn.ShadowDecoration.Color = System.Drawing.Color.DimGray;
             this.addUserBtn.ShadowDecoration.Depth = 5;
@@ -116,6 +129,8 @@ namespace UnetiExam.GUI
             this.addUserBtn.ShadowDecoration.Depth = 15;
 >>>>>>> 2765a3b2f983f643a3ca40c8f3ea868d88e1e40d
             this.addUserBtn.ShadowDecoration.Enabled = true;
+=======
+>>>>>>> parent of 5454f29 (update nhieu thứ)
 =======
 >>>>>>> parent of 5454f29 (update nhieu thứ)
             this.addUserBtn.Size = new System.Drawing.Size(117, 47);
@@ -161,6 +176,7 @@ namespace UnetiExam.GUI
             this.searchUserTextbox.TabIndex = 0;
             // 
 <<<<<<< HEAD
+<<<<<<< HEAD
             // tabelPanel
             // 
 <<<<<<< HEAD
@@ -181,11 +197,14 @@ namespace UnetiExam.GUI
             // 
 =======
 >>>>>>> parent of 5454f29 (update nhieu thứ)
+=======
+>>>>>>> parent of 5454f29 (update nhieu thứ)
             // userTable
             // 
             this.userTable.AllowUserToAddRows = false;
             this.userTable.AllowUserToDeleteRows = false;
             this.userTable.AllowUserToResizeRows = false;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
@@ -251,6 +270,24 @@ namespace UnetiExam.GUI
             this.userTable.ColumnHeadersHeight = 29;
             this.userTable.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
 >>>>>>> parent of 5454f29 (update nhieu thứ)
+=======
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(229)))), ((int)(((byte)(251)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.userTable.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(123)))), ((int)(((byte)(251)))));
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.userTable.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            this.userTable.ColumnHeadersHeight = 29;
+            this.userTable.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+>>>>>>> parent of 5454f29 (update nhieu thứ)
             this.userTable.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.numberColumn,
             this.nameColumn,
@@ -258,6 +295,7 @@ namespace UnetiExam.GUI
             this.roleColumn,
             this.classColumn,
             this.actionColumn});
+<<<<<<< HEAD
 <<<<<<< HEAD
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
@@ -304,6 +342,22 @@ namespace UnetiExam.GUI
             this.userTable.Name = "userTable";
             this.userTable.ReadOnly = true;
             this.userTable.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+=======
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(197)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.userTable.DefaultCellStyle = dataGridViewCellStyle7;
+            this.userTable.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.userTable.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(230)))), ((int)(((byte)(251)))));
+            this.userTable.Location = new System.Drawing.Point(0, 0);
+            this.userTable.Name = "userTable";
+            this.userTable.ReadOnly = true;
+            this.userTable.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+>>>>>>> parent of 5454f29 (update nhieu thứ)
             dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle8.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -312,6 +366,9 @@ namespace UnetiExam.GUI
             dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.userTable.RowHeadersDefaultCellStyle = dataGridViewCellStyle8;
+<<<<<<< HEAD
+>>>>>>> parent of 5454f29 (update nhieu thứ)
+=======
 >>>>>>> parent of 5454f29 (update nhieu thứ)
             this.userTable.RowHeadersVisible = false;
             this.userTable.RowTemplate.Height = 50;
@@ -339,12 +396,15 @@ namespace UnetiExam.GUI
             this.userTable.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.userTable.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
             this.userTable.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             this.userTable.ThemeStyle.RowsStyle.Height = 40;
             this.userTable.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.userTable.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
 =======
+=======
+>>>>>>> parent of 5454f29 (update nhieu thứ)
             this.userTable.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.userTable.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.Black;
             this.userTable.ThemeStyle.RowsStyle.Height = 50;
@@ -403,6 +463,9 @@ namespace UnetiExam.GUI
             this.tabelPanel.Name = "tabelPanel";
             this.tabelPanel.Size = new System.Drawing.Size(857, 231);
             this.tabelPanel.TabIndex = 18;
+<<<<<<< HEAD
+>>>>>>> parent of 5454f29 (update nhieu thứ)
+=======
 >>>>>>> parent of 5454f29 (update nhieu thứ)
             // 
             // guna2HtmlLabel1
@@ -472,13 +535,17 @@ namespace UnetiExam.GUI
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.BackColor = System.Drawing.SystemColors.Control;
+=======
+>>>>>>> parent of 5454f29 (update nhieu thứ)
 =======
 >>>>>>> parent of 5454f29 (update nhieu thứ)
             this.Controls.Add(this.guna2HtmlLabel1);
             this.Controls.Add(this.tabelPanel);
             this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.addUserBtn);
+<<<<<<< HEAD
 <<<<<<< HEAD
             this.Controls.Add(this.tabelPanel);
 =======
@@ -506,6 +573,14 @@ namespace UnetiExam.GUI
             ((System.ComponentModel.ISupportInitialize)(this.userTable)).EndInit();
             this.tabelPanel.ResumeLayout(false);
 >>>>>>> parent of 5454f29 (update nhieu thứ)
+=======
+            this.Controls.Add(this.guna2HtmlLabel3);
+            this.Name = "UCUserManagement";
+            this.Size = new System.Drawing.Size(972, 688);
+            this.guna2Panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.userTable)).EndInit();
+            this.tabelPanel.ResumeLayout(false);
+>>>>>>> parent of 5454f29 (update nhieu thứ)
             this.ResumeLayout(false);
 
         }
@@ -524,6 +599,7 @@ namespace UnetiExam.GUI
         private Guna.UI2.WinForms.Guna2Panel tabelPanel;
 <<<<<<< HEAD
         private Guna2HtmlLabel guna2HtmlLabel1;
+<<<<<<< HEAD
 <<<<<<< HEAD
         private Guna2DataGridView userTable;
         
@@ -546,6 +622,8 @@ namespace UnetiExam.GUI
         private DataGridViewTextBoxColumn classColumn;
         private DataGridViewTextBoxColumn actionColumn;
 >>>>>>> 2765a3b2f983f643a3ca40c8f3ea868d88e1e40d
+=======
+>>>>>>> parent of 5454f29 (update nhieu thứ)
 =======
 >>>>>>> parent of 5454f29 (update nhieu thứ)
     }

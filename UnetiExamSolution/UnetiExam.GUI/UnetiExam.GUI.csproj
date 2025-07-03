@@ -32,9 +32,12 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+<<<<<<< HEAD
   <PropertyGroup>
     <ApplicationIcon>edu.ico</ApplicationIcon>
   </PropertyGroup>
+=======
+>>>>>>> parent of 5454f29 (update nhieu thứ)
   <ItemGroup>
     <Reference Include="Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
       <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.7\lib\net472\Guna.UI2.dll</HintPath>
@@ -151,6 +154,7 @@
     </ProjectReference>
   </ItemGroup>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <ItemGroup>
 <<<<<<< HEAD
     <Content Include="edu.ico" />
@@ -173,6 +177,8 @@
     <Content Include="edu.ico" />
   </ItemGroup>
 >>>>>>> 2765a3b2f983f643a3ca40c8f3ea868d88e1e40d
+=======
+>>>>>>> parent of 5454f29 (update nhieu thứ)
 =======
 >>>>>>> parent of 5454f29 (update nhieu thứ)
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
