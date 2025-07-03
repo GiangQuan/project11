@@ -34,11 +34,14 @@
   </PropertyGroup>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   <PropertyGroup>
     <ApplicationIcon>edu.ico</ApplicationIcon>
   </PropertyGroup>
 =======
 >>>>>>> parent of 5454f29 (update nhieu thứ)
+=======
+>>>>>>> parent of 523fd81 (123123)
 =======
 >>>>>>> parent of 523fd81 (123123)
   <ItemGroup>
@@ -158,6 +161,9 @@
   </ItemGroup>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 523fd81 (123123)
   <ItemGroup>
     <Content Include="edu.ico" />
   </ItemGroup>
@@ -174,6 +180,7 @@
     </BootstrapperPackage>
   </ItemGroup>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <Content Include="appicon-2.ico" />
     <Content Include="appicon.ico" />
@@ -184,6 +191,8 @@
 >>>>>>> parent of 5454f29 (update nhieu thứ)
 =======
 >>>>>>> parent of 5454f29 (update nhieu thứ)
+=======
+>>>>>>> parent of 523fd81 (123123)
 =======
 >>>>>>> parent of 523fd81 (123123)
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

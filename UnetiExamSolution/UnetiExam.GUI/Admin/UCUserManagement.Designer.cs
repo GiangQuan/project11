@@ -41,6 +41,7 @@ namespace UnetiExam.GUI
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of 5454f29 (update nhieu thứ)
@@ -54,11 +55,14 @@ namespace UnetiExam.GUI
 >>>>>>> parent of 5454f29 (update nhieu thứ)
 =======
 >>>>>>> parent of 523fd81 (123123)
+=======
+>>>>>>> parent of 523fd81 (123123)
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.addUserBtn = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.searchUserTextbox = new Guna.UI2.WinForms.Guna2TextBox();
             this.userTable = new Guna.UI2.WinForms.Guna2DataGridView();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -84,13 +88,26 @@ namespace UnetiExam.GUI
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.userTable)).BeginInit();
             this.tabelPanel.SuspendLayout();
+=======
+            this.dt = new System.Data.DataTable();
+            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2Panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
+            this.tabelPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.userTable)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dt)).BeginInit();
+>>>>>>> parent of 523fd81 (123123)
             this.SuspendLayout();
             // 
             // guna2HtmlLabel3
             // 
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel3.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.guna2HtmlLabel3.Location = new System.Drawing.Point(29, 30);
+=======
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(29, 32);
+>>>>>>> parent of 523fd81 (123123)
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
             this.guna2HtmlLabel3.Size = new System.Drawing.Size(302, 47);
             this.guna2HtmlLabel3.TabIndex = 11;
@@ -114,6 +131,9 @@ namespace UnetiExam.GUI
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 523fd81 (123123)
 =======
 >>>>>>> parent of 523fd81 (123123)
             this.addUserBtn.ShadowDecoration.BorderRadius = 8;
@@ -192,6 +212,9 @@ namespace UnetiExam.GUI
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 523fd81 (123123)
 =======
 >>>>>>> parent of 523fd81 (123123)
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
@@ -222,6 +245,7 @@ namespace UnetiExam.GUI
             this.userTable.DefaultCellStyle = dataGridViewCellStyle3;
             this.userTable.GridColor = System.Drawing.Color.White;
             this.userTable.Location = new System.Drawing.Point(21, 4);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(229)))), ((int)(((byte)(251)))));
@@ -297,6 +321,8 @@ namespace UnetiExam.GUI
             this.userTable.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(230)))), ((int)(((byte)(251)))));
             this.userTable.Location = new System.Drawing.Point(0, 0);
 >>>>>>> 2765a3b2f983f643a3ca40c8f3ea868d88e1e40d
+=======
+>>>>>>> parent of 523fd81 (123123)
 =======
 >>>>>>> parent of 523fd81 (123123)
             this.userTable.Name = "userTable";
@@ -381,6 +407,9 @@ namespace UnetiExam.GUI
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 523fd81 (123123)
 =======
 >>>>>>> parent of 523fd81 (123123)
             this.userTable.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
@@ -388,6 +417,7 @@ namespace UnetiExam.GUI
             this.userTable.ThemeStyle.RowsStyle.Height = 40;
             this.userTable.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.userTable.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of 5454f29 (update nhieu thứ)
@@ -453,13 +483,19 @@ namespace UnetiExam.GUI
 >>>>>>> parent of 5454f29 (update nhieu thứ)
 =======
 >>>>>>> parent of 5454f29 (update nhieu thứ)
+=======
+>>>>>>> parent of 523fd81 (123123)
             // 
             // guna2HtmlLabel1
             // 
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.DimGray;
+<<<<<<< HEAD
             this.guna2HtmlLabel1.Location = new System.Drawing.Point(29, 76);
+=======
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(32, 80);
+>>>>>>> parent of 523fd81 (123123)
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
             this.guna2HtmlLabel1.Size = new System.Drawing.Size(234, 22);
             this.guna2HtmlLabel1.TabIndex = 19;
@@ -473,6 +509,9 @@ namespace UnetiExam.GUI
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 523fd81 (123123)
 =======
 >>>>>>> parent of 523fd81 (123123)
             this.BackColor = System.Drawing.SystemColors.Control;
@@ -488,6 +527,7 @@ namespace UnetiExam.GUI
 <<<<<<< HEAD
             this.Controls.Add(this.tabelPanel);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             this.Controls.Add(this.tabelPanel);
             this.Controls.Add(this.guna2Panel1);
@@ -498,18 +538,24 @@ namespace UnetiExam.GUI
 >>>>>>> parent of 5454f29 (update nhieu thứ)
 =======
 >>>>>>> parent of 523fd81 (123123)
+=======
+>>>>>>> parent of 523fd81 (123123)
             this.Name = "UCUserManagement";
             this.Size = new System.Drawing.Size(972, 688);
             this.guna2Panel1.ResumeLayout(false);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 523fd81 (123123)
 =======
 >>>>>>> parent of 523fd81 (123123)
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.tabelPanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.userTable)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dt)).EndInit();
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
             this.tabelPanel.ResumeLayout(false);
@@ -527,6 +573,8 @@ namespace UnetiExam.GUI
             ((System.ComponentModel.ISupportInitialize)(this.userTable)).EndInit();
             this.tabelPanel.ResumeLayout(false);
 >>>>>>> parent of 5454f29 (update nhieu thứ)
+=======
+>>>>>>> parent of 523fd81 (123123)
 =======
 >>>>>>> parent of 523fd81 (123123)
             this.ResumeLayout(false);
@@ -563,6 +611,7 @@ namespace UnetiExam.GUI
         private Guna2ComboBox roleComboBox;
         private Guna2PictureBox guna2PictureBox1;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         private Guna2DataGridView userTable;
         private DataGridViewTextBoxColumn numberColumn;
@@ -576,6 +625,8 @@ namespace UnetiExam.GUI
 >>>>>>> parent of 5454f29 (update nhieu thứ)
 =======
 >>>>>>> parent of 5454f29 (update nhieu thứ)
+=======
+>>>>>>> parent of 523fd81 (123123)
 =======
 >>>>>>> parent of 523fd81 (123123)
     }
